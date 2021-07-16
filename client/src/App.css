@@ -1,0 +1,21 @@
+a {
+    outline: none !important;
+}
+
+.active {
+    color: yellow !important;
+    font-weight: bold !important;
+}
+
+.error {
+    border-color: red !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.load-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
